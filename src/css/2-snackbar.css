@@ -30,7 +30,7 @@
   color: #2e2f42;
 }
 .input-delay:hover {
-  border: 1px solid #000;
+  border: 1px solid #6c8cff;
 }
 
 fieldset {
@@ -52,12 +52,12 @@ fieldset:hover {
 }
 
 .label-check {
-  margin-top: 16px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 10px;
+  gap: 12px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -84,13 +84,14 @@ button {
   padding: 8px 16px;
   width: 360px;
   height: 40px;
-  background: #4e75ff;
+  background: rgb(224, 224, 224);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: black;
   cursor: pointer;
+  border: 1px solid #000;
 }
 
 button:hover {

@@ -1,3 +1,6 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 input {
   border-radius: 4px;
   width: 272px;
@@ -21,15 +24,14 @@ button {
   width: 75px;
   height: 45px;
   margin-left: 8px;
-
-  background: #4e75ff;
-
+  background: rgb(211, 210, 210);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: black;
   cursor: pointer;
+  border: 1px solid #000;
 }
 
 button:hover {
@@ -48,7 +50,6 @@ button:disabled {
   justify-content: space-between;
   flex-direction: row;
   gap: 24px;
-
   width: 346px;
   height: 72px;
   margin-top: 32px;
@@ -59,12 +60,11 @@ button:disabled {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-
   width: 55px;
 }
 .value {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1.2;
   letter-spacing: 0.04em;
   color: #2e2f42;
